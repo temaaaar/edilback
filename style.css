@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "Gilroy"; 
+	src: url("./JAVA SCRIPT/fonts/Gilroy-Semibold.ttf");
+}
+
+.fon a {
+    text-decoration: none;
+    color: rgba(255, 219, 174, 0.289);
+}
+
+body {
+    background: url(images/mounts.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    font-size: 200px;
+    text-align: center;
+    margin: 450px 0 0 700px;
+    
+}
+
+.shadow-text{
+    color: #f66d52; /* Цвет  текста */
+    font-weight: bold;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #ffa000; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
+
+  @media screen and (max-width: 420px) {
+    body {
+        background-size: 1000px;
+    }
+
+    .text {
+        font-size: 50px;
+        text-align: center;
+        margin: 450px 0 0 70px;
+        
+    }
+   
+}
